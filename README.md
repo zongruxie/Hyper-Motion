@@ -1,6 +1,6 @@
 <h2> 
   <a href="https://arxiv.org/abs/2505.22977">
-    HyperMotion: DiT-Based Pose-Guided Human Image Animation of Complex Motions
+    HyperMotionX: DiT-Based Pose-Guided Human Image Animation of Complex Motions
   </a>
 </h2>
 
@@ -15,7 +15,7 @@ This repository is the official implementation of [HyperMotion](https://vivocame
 
 ## 📣 News:
 We'll be open-sourcing model weights, inference/train scripts, and methods for obtaining pose sequences in June 2025.  
-🎉 We have sent data to the first batch of applicants!  
+🎉 We have sent train data and bench to the first batch of applicants!  
 🎉 Now you can download the weights from 🤗[**HuggingFace**](https://huggingface.co/shuolin/HyperMotion).
 
 ![baseline](demo/baseline.png)
@@ -31,7 +31,6 @@ We'll be open-sourcing model weights, inference/train scripts, and methods for o
 - [✅] Release the Xpose process scripts
 - [✅] Release the training data Full processing scripts
 - [✅] Release the pretrained weights
-- [ ] Release the resize pose code
 - [ ] Release the training file & details (wan-2.1_14B 8*H20 96G sft)
 
 ## 😘 How to get Open-HyperMotionX training dataset from [Motion-X](https://github.com/IDEA-Research/Motion-X) (easy).
@@ -342,13 +341,10 @@ All the materials, including code, checkpoints, and demo, are made available und
 
 ## 🌏 Citation
 <pre> 
-  @misc{xu2025hypermotion,
-    title={HyperMotion: DiT-Based Pose-Guided Human Image Animation of Complex Motions}, 
-    author={Shuolin Xu and Siming Zheng and Ziyi Wang and HC Yu and Jinwei Chen and Huaqi Zhang and Bo Li and Peng-Tao Jiang},
-    year={2025},
-    eprint={2505.22977},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2505.22977}, 
-  }
+  @article{xu2025hypermotion,
+  title={Hypermotion: Dit-based pose-guided human image animation of complex motions},
+  author={Xu, Shuolin and Zheng, Siming and Wang, Ziyi and Yu, HC and Chen, Jinwei and Zhang, Huaqi and Li, Bo and Jiang, Peng-Tao},
+  journal={arXiv preprint arXiv:2505.22977},
+  year={2025}
+}
 </pre>
