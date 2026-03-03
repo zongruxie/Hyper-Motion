@@ -63,7 +63,7 @@ GitPython==3.1.41
 google-api-core==2.24.0
 google-auth==2.37.0
 googleapis-common-protos==1.66.0
-gradio==6.5.1
+gradio==6.7.0
 gradio_client==0.6.1
 grpcio==1.68.1
 h11==0.16.0
@@ -156,7 +156,7 @@ pandas==2.2.3
 parso==0.8.4
 partial-json-parser==0.2.1.1.post4
 pexpect==4.9.0
-pillow==10.4.0
+pillow==12.1.1
 pip==26.0
 platformdirs==4.3.6
 pluggy==1.5.0
@@ -193,7 +193,7 @@ pytz==2024.2
 PyWavelets==1.8.0
 PyYAML==6.0.2
 pyzmq==26.2.0
-ray==2.52.1
+ray==2.54.0
 referencing==0.35.1
 regex==2024.11.6
 requests==2.32.4
